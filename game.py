@@ -66,7 +66,7 @@ while running:
     elif player == "scissor" and computer == "rock":
         print("----You Lose----!")
         loss += 1
-    elif player == "scissors" and computer == "paper":
+    elif player == "scissor" and computer == "paper":
         print("----You win!----")
         win += 1
     elif player == "paper" and computer == "scissor":
@@ -96,6 +96,7 @@ while running:
         if choice == "N":
             running = False
             print("Thanks for playing!!....")
+
 
 
 
