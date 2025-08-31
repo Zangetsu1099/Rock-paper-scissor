@@ -82,12 +82,13 @@ while running:
                 print(f"Wins = {win}" "|" f"Losses = {loss}" "|" f"Tie = {tie}")
                 while choice not in answer:
                     choice = input("Play Again?(Y/N): ").upper()
-                    if choice not in answers:
+                    if choice not in answer:
                         print("Please Enter the valid Option ")
 
             if choice == "N":
                 running = False
                 print("Thanks for playing!!....")
+
 
 
 
