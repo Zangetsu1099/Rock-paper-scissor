@@ -73,7 +73,7 @@ while running:
             #S = Scoreboard(To See the scoreboard)
         choice = 0
         answers = ("Y", "N", "S")
-        answer = ("Y", "N)
+        answer = ("Y", "N")
         while choice not in answer:
             choice = input("Play Again?(Y/N/S(scoreboard)): ").upper()
             if choice not in answer:
@@ -91,6 +91,7 @@ while running:
             if choice == "N":
                 running  = False
                 print("Thanks for playing!!....")
+
 
 
 
