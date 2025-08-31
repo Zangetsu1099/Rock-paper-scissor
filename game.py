@@ -74,23 +74,21 @@ while running:
         choice = 0
         answers = ("Y", "N", "S")
         answer = ("Y", "N")
-        while choice not in answer:
+        while choice not in answers:
             choice = input("Play Again?(Y/N/S(scoreboard)): ").upper()
-            if choice not in answer:
+            if choice not in answers:
                 print("Please Enter the valid Option ")
             if choice  == "S"  :
                 print ( f"Wins = {win}" "|" f"Losses = {loss}" "|" f"Tie = {tie}")
-                choice = input("Play Again?(Y/N): ").upper()
                 while choice not in answer:
                     choice = input("Play Again?(Y/N): ").upper()
                     if choice not in answers:
                         print("Please Enter the valid Option ")
-                    if choice == "N":
-                        running = False
-                        print("Thanks for playing!!....")
+                    
             if choice == "N":
                 running  = False
                 print("Thanks for playing!!....")
+
 
 
 
