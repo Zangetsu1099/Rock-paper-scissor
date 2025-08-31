@@ -26,13 +26,13 @@ while running:
             if player not in base_option:
                 print("Invalid Choice please choose from given options!")
             # Computer has also 1 in 100 chance to get a guarantee win
-            if random.random() < 0.01:
-                print("Well....Luck is not on your side....")
-                computer_option = "golden_hand"
-                computer = computer_option
-            else:
-                computer_option = base_option
-                computer = random.choice(base_option)
+    if random.random() < 0.01:
+        print("Well....Luck is not on your side....")
+        computer_option = "golden_hand"
+        computer = computer_option
+    else:
+        computer_option = base_option
+        computer = random.choice(base_option)
         print(f"player:{player}")
         print(f"computer:{computer}")
         print("------------------")
@@ -88,6 +88,7 @@ while running:
             if choice == "N":
                 running = False
                 print("Thanks for playing!!....")
+
 
 
 
