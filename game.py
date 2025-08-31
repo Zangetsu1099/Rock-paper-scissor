@@ -79,8 +79,9 @@ while running:
                 print("Please Enter the valid Option ")
             if choice  == "S":
                 print ( f"Wins = {win}" "|" f"Losses = {loss}" "|" f"Tie = {tie}")
-                choice = input("Play Again?(Y/N/S): ").upper()
+                choice = input("Play Again?(Y/N): ").upper()
             if choice == "N":
                 running  = False
                 print("Thanks for playing!!....")
+
 
