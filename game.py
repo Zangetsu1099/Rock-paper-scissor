@@ -80,8 +80,12 @@ while running:
             if choice  == "S":
                 print ( f"Wins = {win}" "|" f"Losses = {loss}" "|" f"Tie = {tie}")
                 choice = input("Play Again?(Y/N): ").upper()
+                while choice != "Y" and "N":
+                    print("Please enter the valid option")
+                    choice = input("Play Again?(Y/N): ").upper()
             if choice == "N":
                 running  = False
                 print("Thanks for playing!!....")
+
 
 
