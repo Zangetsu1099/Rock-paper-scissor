@@ -95,7 +95,9 @@ while running:
 
         if choice == "N":
             running = False
+            print(f"Wins = {win}" "|" f"Losses = {loss}" "|" f"Tie = {tie}")
             print("Thanks for playing!!....")
+
 
 
 
